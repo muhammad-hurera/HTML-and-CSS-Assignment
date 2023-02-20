@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter#7</title>
+    <!-- <link rel="stylesheet" href="style.css" type="text/css"> -->
+</head>
+<body>
+    
+    <h2>Chapter # 7 - Forms</h2>
+    <form action="backend.php">
+        <fieldset>
+            <legend>Your Details</legend>
+        <div>
+            Name :  <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Email : <input type="email" name="myEmail">
+        </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Your Review</legend>
+            <br>
+        <div>
+        How did you hear about us?
+            <select name="web">
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+            </select>
+        </div>
+            <br>
+        <div>
+        Would you visit again?
+        </div>
+            <div>
+                <input type="radio" name="group" value="Yes">Yes
+                <input type="radio" name="group" value="No">No
+                <input type="radio" name="group" value="Maybe ">Maybe
+            </div>
+        <p>Comments</p>
+            <textarea name="comments" id="" cols="30" rows="4"></textarea>
+
+        <p>
+            <input type="checkbox" name="email updates" value="email updates">Sign me up for email updates
+        </p>
+
+            <button type="submit">Submit review</button>
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>

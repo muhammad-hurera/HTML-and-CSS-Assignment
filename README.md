@@ -1,1 +1,1 @@
-# HTML-and-CSS-Assignment
+# HTML and CSS assignment exercise
